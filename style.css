@@ -1,0 +1,126 @@
+/* General Page Styling */
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    font-size: 18px; /* Increased base font size */
+    height: 100%
+
+}
+
+.navbar {
+    background-color: #2c2c2c;
+    padding: 20px 0; /* Increased padding */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.1);
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 30px; /* Increased margin */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #00ff00;
+    font-size: 24px; /* Larger font size */
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+}
+.header {
+    text-align: center;
+    margin-top: 80px; /* Increased top margin */
+    position: relative;
+}
+
+.header h1 {
+    font-size: 48px; /* Much larger heading */
+    font-weight: bold;
+    margin: 0;
+    padding: 30px;
+    text-shadow: 0 0 15px #00ff00;
+}
+
+.title-arrow {
+    font-size: 60px; /* Larger arrow */
+    color: #00ff00;
+    margin-top: 30px;
+    animation: bounce 1s infinite;
+}
+
+/* Button Styling */
+/* Button Styling */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 100px; /* Increased space between buttons */
+}
+
+button {
+    padding: 0.1em 0.25em;
+    width: 40em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 26.2em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    font-family: "Playwrite VN", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+
+  
+
+.separator {
+    font-size: 36px;
+    font-weight: bold;
+    color: #00ff00;
+    margin: 0 50px; /* Increased margin */
+    align-self: center;
+}
+
