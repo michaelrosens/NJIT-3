@@ -1,10 +1,9 @@
-/* General Page Styling */
 body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     background-color: #1e1e1e;
-    color: #00ff00;
+    color: #64ffda;
     font-size: 18px; 
     height: 100%
 
@@ -17,7 +16,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(17, 167, 194, 0.1);
 }
 
 .nav-links {
@@ -49,12 +48,12 @@ body {
 }
 .header {
     text-align: center;
-    margin-top: 80px; /* Increased top margin */
+    margin-top: 80px;
     position: relative;
 }
 
 .header h1 {
-    font-size: 48px; /* Much larger heading */
+    font-size: 48px;
     font-weight: bold;
     margin: 0;
     padding: 30px;
@@ -66,7 +65,7 @@ body {
 
 .title-arrow {
     font-size: 60px;
-    color: #00ff00;
+    color: #64ffda;
     margin-top: 30px;
     animation: bounce 1s infinite;
 }
@@ -101,10 +100,10 @@ button {
     background-color: #212121;
     border-radius: 0.2em;
     font-size: 1.5em;
-    font-family: "Playwrite VN", serif;
+    font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: #fff;
+    color: #64ffda;
     border: 0.08em solid #fff;
     box-shadow: 0 0.4em 0.1em 0.019em #fff;
   }
@@ -121,7 +120,7 @@ button {
 .separator {
     font-size: 36px;
     font-weight: bold;
-    color: #00ff00;
+    color: #17bba5;
     margin: 0 50px; 
     align-self: center;
 }
