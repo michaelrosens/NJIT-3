@@ -146,3 +146,69 @@ button:hover {
 .transition {
     transition: 300ms ease;
 }
+#careers {
+    background-color: #112240;
+    border: 2px solid #64ffda;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow:
+        0 0 10px #64ffda,
+        0 0 20px rgba(100, 255, 218, 0.5),
+        inset 0 0 15px rgba(100, 255, 218, 0.3);
+}
+
+.career-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.career-info {
+    flex-basis: calc(30% - 20px);
+    background-color: #1d2d50;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.video-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.internship-info {
+    background-color: #1d2d50;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.career-link, .internship-link {
+    display: inline-block;
+    background-color: #64ffda;
+    color: #0a192f;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.career-link:hover, .internship-link:hover {
+    background-color: #ccd6f6;
+    box-shadow: 0 0 10px #64ffda;
+}
+
+
+
+.video-container iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}

@@ -67,11 +67,11 @@ function showResults() {
 
     let result = '';
     if (score >= 8) {
-        result = "Great! You seem to have a strong aptitude for Computer Science Principles. This course would be an excellent fit for you!";
+        result = "Take the course!!! You seem to have a strong aptitude for Computer Science Principles. This course would be an excellent fit for you!";
     } else if (score >= 5) {
-        result = "You show potential interest in Computer Science Principles. While you might face some challenges, you could still enjoy and benefit from the course.";
+        result = "Sleep on it... You show potential interest in Computer Science Principles. While you might face some challenges, you could still enjoy and benefit from the course.";
     } else {
-        result = "Computer Science Principles might be challenging for you based on your current interests. However, if you're passionate about learning, don't let this discourage you!";
+        result = "Not too sure... Computer Science Principles might be challenging for you based on your current interests. However, if you're passionate about learning, don't let this discourage you!";
     }
 
     resultContainer.innerHTML = `<h3>Your Result:</h3><p>${result}</p>`;
